@@ -19,4 +19,4 @@ sed -i 's/192.168.1.1/10.10.10.251/g' package/base-files/files/bin/config_genera
 # Modify hostname
 #sed -i 's/OpenWrt/P3TERX-Router/g' package/base-files/files/bin/config_generate
 #git clone https://github.com/gdy666/luci-app-lucky.git package/luci-app-lucky
-#git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
+git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
